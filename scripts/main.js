@@ -1,54 +1,19 @@
 // eslint-disable-next-line import/extensions
-import createRow from "./modules/keyboard-row.js";
+import keyboardWrapper from "./modules/keyboard.js";
 
+// ! Add link to style.css
 const head = document.querySelector("head");
 const styleLink = document.createElement("link");
 styleLink.setAttribute("rel", "stylesheet");
 styleLink.setAttribute("href", "./style.css");
 head.appendChild(styleLink);
 
-const keyboardCharsRu = [
-  [
-    "ё",
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "0",
-    "-",
-    "=",
-    "Backspace",
-  ],
-];
-const keyboardCharsEn = [
-  [
-    "`",
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "0",
-    "-",
-    "=",
-    "Backspace",
-  ],
-];
-
 const bodyPage = document.querySelector("body");
-const keyboardWrapper = document.createElement("div");
-const keyboardRow = createRow(keyboardCharsRu[0], keyboardCharsEn[0]);
+const textArea = document.createElement("textarea");
 
-keyboardWrapper.className = "body__keyboard keyboard";
+textArea.className = "body__textarea textarea";
+textArea.setAttribute("rows", 5);
+textArea.setAttribute("cols", 50);
 
-keyboardWrapper.appendChild(keyboardRow);
+bodyPage.appendChild(textArea);
 bodyPage.appendChild(keyboardWrapper);
