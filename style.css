@@ -13,7 +13,10 @@
    color: #444444
 }
 
-.caseDown,.caseUp,.shiftCaps,.caps {
+.caseDown,
+.caseUp,
+.shiftCaps,
+.caps {
    display: block;
    width: 100;
    min-height: 40px
@@ -23,7 +26,9 @@
    display: none
 }
 
-.description,.language,.title {
+.description,
+.language,
+.title {
    margin: 10px auto;
    text-align: center
 }
@@ -78,27 +83,42 @@
    border-radius: 50px
 }
 
-.keyboard .AltLeft,.keyboard .AltRight,.keyboard .ArrowUp,.keyboard .ArrowLeft,.keyboard .ArrowDown,.keyboard .ArrowRight,.keyboard .Backspace,.keyboard .CapsLock,.keyboard .ControlLeft,.keyboard .ControlRight,.keyboard .Delete,.keyboard .Enter,.keyboard .ShiftLeft,.keyboard .ShiftRight,.keyboard .Tab,.keyboard .MetaLeft {
+.keyboard .keyALTLEFT,
+.keyboard .keyALTRIGHT,
+.keyboard .keyARROWUP,
+.keyboard .keyARROWLEFT,
+.keyboard .keyARROWDOWN,
+.keyboard .keyARROWRIGHT,
+.keyboard .keyBACKSPACE,
+.keyboard .keyCAPSLOCK,
+.keyboard .keyCTRLLEFT,
+.keyboard .keyCTRLRIGHT,
+.keyboard .keyDEL,
+.keyboard .keyENTER,
+.keyboard .keySHIFT,
+.keyboard .keySHIFTRIGHT,
+.keyboard .keyTAB,
+.keyboard .keyWIN{
    font-weight: 600;
    background-color: #222222
 }
 
-.keyboard .Tab {
+.keyboard .keyTAB {
    width: 50px
 }
 
-.keyboard .Backspace, .keyboard .CapsLock, .keyboard .ShiftLeft {
+.keyboard .keyBACKSPACE, .keyboard .keyCAPSLOCK, .keyboard .keySHIFT {
    width: 100px
 }
 
-.keyboard .Delete {
+.keyboard .keyDEL {
    width: 44px
 }
 
-.keyboard .Enter,.keyboard .ShiftRight {
+.keyboard .keyENTER,.keyboard .keySHIFTRIGHT {
    width: 86px
 }
 
-.keyboard .Space {
+.keyboard .keySPACE {
    width: 330px
 }
