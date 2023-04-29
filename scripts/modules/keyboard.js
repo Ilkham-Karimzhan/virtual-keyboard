@@ -1,4 +1,4 @@
-import createKey from "./modules/keyboard-key";
+import createKey from "./keyboard-key";
 
 const bodyPage = document.querySelector("body");
 const keyboardWrapper = document.createElement("div");
