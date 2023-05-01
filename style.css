@@ -83,42 +83,45 @@
    border-radius: 50px
 }
 
-.keyboard .keyALTLEFT,
-.keyboard .keyALTRIGHT,
-.keyboard .keyARROWUP,
-.keyboard .keyARROWLEFT,
-.keyboard .keyARROWDOWN,
-.keyboard .keyARROWRIGHT,
-.keyboard .keyBACKSPACE,
-.keyboard .keyCAPSLOCK,
-.keyboard .keyCTRLLEFT,
-.keyboard .keyCTRLRIGHT,
-.keyboard .keyDEL,
-.keyboard .keyENTER,
-.keyboard .keySHIFT,
-.keyboard .keySHIFTRIGHT,
-.keyboard .keyTAB,
-.keyboard .keyWIN{
+.keyboard .keyAltLeft,
+.keyboard .keyAltRight,
+.keyboard .keyArrowUp,
+.keyboard .keyArrowLeft,
+.keyboard .keyArrowDown,
+.keyboard .keyArrowRight,
+.keyboard .keyBackspace,
+.keyboard .keyCapsLock,
+.keyboard .keyCtrlLeft,
+.keyboard .keyCtrlRight,
+.keyboard .keyDel,
+.keyboard .keyEnter,
+.keyboard .keyShift,
+.keyboard .keyShiftRight,
+.keyboard .keyTab,
+.keyboard .keyWin{
    font-weight: 600;
    background-color: #222222
 }
 
-.keyboard .keyTAB {
+.keyboard .keyTab {
    width: 50px
 }
 
-.keyboard .keyBACKSPACE, .keyboard .keyCAPSLOCK, .keyboard .keySHIFT {
+.keyboard .keyBackspace, 
+.keyboard .keyCapsLock, 
+.keyboard .keyShift {
    width: 100px
 }
 
-.keyboard .keyDEL {
+.keyboard .keyDel {
    width: 44px
 }
 
-.keyboard .keyENTER,.keyboard .keySHIFTRIGHT {
+.keyboard .keyEnter,
+.keyboard .keyShiftRight {
    width: 86px
 }
 
-.keyboard .keySPACE {
+.keyboard .keySpace {
    width: 330px
 }
